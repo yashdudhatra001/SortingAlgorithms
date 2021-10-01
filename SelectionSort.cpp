@@ -4,6 +4,8 @@ using namespace std;
 
 void print(int *arr, int n)
 {
+    //Printing arr
+
     for (int i = 0; i < n; i++)
     {
         cout << *(arr + i) << " ";
@@ -21,6 +23,7 @@ void swap(int *a, int *b)
 
 
 //Selection Sort
+
 int *SelectionSort(int *arr, int n)
 {
     for (int i = 0; i < n; i++)
